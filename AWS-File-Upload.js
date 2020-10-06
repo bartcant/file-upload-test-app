@@ -40,7 +40,7 @@ exports.handler = async (event, context) => {
             err: e.message,
             headers: {
                 "access-control-allow-origin": "*"
-            }
+            },
             body: "error occured"
         };
         return response;
